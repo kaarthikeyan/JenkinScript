@@ -10,7 +10,7 @@ pipeline {
             steps {
                 timeout(time:1,unit:'MINUTES'){
                 git (
-                    url : 'https://github.com/YogeshMCA/Currency-Conversion-Service---Pivotal.git',
+                    url : 'https://github.com/kaarthikeyanmca/Currency-Conversion-Service---Pivotal.git',
                     credentialsId :'GITHUB_LOGIN',
                     branch : 'master'                    
                 )
